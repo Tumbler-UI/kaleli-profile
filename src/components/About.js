@@ -10,6 +10,7 @@ function About() {
         dynamic and user-friendly web applications. I specialize in React.js,
         Node.js, and Python, and I'm always exploring new technologies.
       </p>
+      <h3>Moringa School-Software Engineering Graduate 2024</h3>
     </section>
   );
 }

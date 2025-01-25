@@ -3,9 +3,8 @@ import "./Projects.css";
 
 function Projects() {
   const projectList = [
-    { title: "Portfolio Website", link: "https://RonnieDev.netlify.app" },
-    { title: "E-commerce App", link: "https://example.com" },
-    { title: "Blog Platform", link: "https://example.com" },
+    { title: "Portfolio Website", link: "kalelimburu.netlify.app" },
+    { title: "Cloudstore", link: "https://cloud-store-54gn.vercel.app" },
   ];
 
   return (
