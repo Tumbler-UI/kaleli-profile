@@ -6,10 +6,10 @@ function Footer() {
     <footer className="footer">
       <p>&copy; 2025 KAVALI.DEV. All Rights Reserved.</p>
       <div className="social-links">
-        <a href="https://github.com/RonnieDev" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/Tumbler-UI" target="_blank" rel="noopener noreferrer">
           GitHub
         </a>
-        <a href="https://www.linkedin.com/in/ronnie-dev/" target="_blank" rel="noopener noreferrer">
+        <a href="www.linkedin.com/in/joe-mburu-86497b268" target="_blank" rel="noopener noreferrer">
           LinkedIn
         </a>
       </div>
