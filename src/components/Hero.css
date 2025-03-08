@@ -1,47 +1,65 @@
-.hero p h2{
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
-}
 .hero {
   display: flex;
   align-items: center;
-  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 2rem;
 }
 
+.hero-content {
+  display: flex;
+  align-items: center;
+  max-width: 900px;
+  width: 100%;
+  gap: 2rem;
+}
 
-
-/* Container Styling for Image and h1 */
 .profile-image {
-  display: flex; /* Use flexbox for horizontal alignment */
-  align-items: center; /* Vertically center items */
-  justify-content: center; /* Space content evenly */
-  gap: 20rem; /* Space between the image and text */
-  text-align: left; /* Ensure proper alignment for the text */
-  margin: 0; /* Remove default margin */
-  height: 300px;
-  padding: 0px 450px 0px 0px;
+  flex: 1;
 }
 
 .profile-image img {
-  width: 150px; /* Profile image size */
-  height: 150px;
-  border-radius: 50%; /* Circular image */
-  object-fit: cover; /* Maintain proportions */
-  border: 3px solid #85bcf7; /* Add a border */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
-.profile-image h1 {
-  font-size: 2rem; /* Adjust font size */
-  color: #007bff; /* Primary text color */
-  display: flex; /* Flexbox for the waving hand */
-  align-items: center; /* Vertically center text and emoji */
-  gap: 0.5rem; /* Space between text and waving hand */
-  margin: 0; /* Remove default margin */;
+.text-content {
+  flex: 2;
 }
 
-.waving-hand-container {
+
+.text-content h2 {
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
   display: inline-block;
-  transform-origin: bottom center; /* Pivot point for waving animation */
+  margin-top: 1rem;
+}
+
+/* Mobile screen adjustments */
+@media screen and (max-width: 768px) {
+  .hero-content {
+    flex-direction: column; /* Stack image and text */
+    text-align: center;
+  }
+
+  .profile-image {
+    order: -1; /* Move image to the top */
+  }
+
+  .text-content {
+    text-align: center;
+  }
 }
 
