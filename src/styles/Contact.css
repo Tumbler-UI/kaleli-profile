@@ -1,0 +1,57 @@
+.contact {
+  background: #0b1324;
+}
+
+.contact-container {
+  max-width: 750px;
+  margin: auto;
+  padding: 100px 25px;
+  text-align: center;
+}
+
+.contact-label {
+  color: #38bdf8;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.contact h2 {
+  color: white;
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  margin: 15px 0;
+}
+
+.contact h2 span {
+  display: block;
+  color: #38bdf8;
+}
+
+.contact p:not(.contact-label) {
+  color: #94a3b8;
+  line-height: 1.8;
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.contact-btn {
+  padding: 13px 22px;
+  border-radius: 7px;
+
+  background: #38bdf8;
+  color: #06101d;
+
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.contact-btn.outline {
+  background: transparent;
+  border: 1px solid #334155;
+  color: white;
+}

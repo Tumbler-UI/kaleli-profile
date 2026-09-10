@@ -1,0 +1,24 @@
+.footer {
+  max-width: 1150px;
+  margin: auto;
+
+  padding: 30px 25px;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+
+  border-top: 1px solid #1e293b;
+
+  color: #64748b;
+}
+
+.footer strong {
+  color: white;
+}
+
+.footer p {
+  margin: 5px 0;
+  font-size: 0.85rem;
+}
